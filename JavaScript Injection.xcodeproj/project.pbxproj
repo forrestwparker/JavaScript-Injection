@@ -17,6 +17,7 @@
 		6F1899BE20A2A24300F0BEE7 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F1899B420A2A24300F0BEE7 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6F1899C420A2AB2800F0BEE7 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F1899C320A2AB2800F0BEE7 /* Action.js */; };
 		6F1899C520A2ABFF00F0BEE7 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 6F1899C320A2AB2800F0BEE7 /* Action.js */; };
+		6F77B61E20A398F000211115 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F77B61D20A398F000211115 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		6F1899B920A2A24300F0BEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		6F1899BB20A2A24300F0BEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F1899C320A2AB2800F0BEE7 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		6F77B61D20A398F000211115 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		6F18999220A2A08E00F0BEE7 = {
 			isa = PBXGroup;
 			children = (
+				6F77B61D20A398F000211115 /* README.md */,
 				6F18999D20A2A08E00F0BEE7 /* JavaScript Injection */,
 				6F1899B520A2A24300F0BEE7 /* Extension */,
 				6F18999C20A2A08E00F0BEE7 /* Products */,
@@ -201,6 +204,7 @@
 			files = (
 				6F1899C520A2ABFF00F0BEE7 /* Action.js in Resources */,
 				6F1899A920A2A08F00F0BEE7 /* LaunchScreen.storyboard in Resources */,
+				6F77B61E20A398F000211115 /* README.md in Resources */,
 				6F1899A620A2A08F00F0BEE7 /* Assets.xcassets in Resources */,
 				6F1899A420A2A08E00F0BEE7 /* Main.storyboard in Resources */,
 			);
